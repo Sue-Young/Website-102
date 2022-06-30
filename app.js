@@ -10,3 +10,4 @@
  if ( userEmail != "" && userEmail != null ) {
     document.write('Welcome to our newsletter ' + userEmail + '! ');
  }
+console.log(4+'2');
