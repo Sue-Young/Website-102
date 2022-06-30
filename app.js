@@ -1,15 +1,11 @@
 
- let userEmail = prompt("Want to join our newsletter? Enter your email below.");
+ let userAge = prompt("Enter your age to find out how much yoga can make you younger.");
+      
+ function reverseAge( age ) {
+   return Math.round(age/1.5);
+ }
  
- if ( userEmail != "" && userEmail != null ) {
-    alert( "Thanks for joining!!" );
- } else {
-    alert( "You are making a big mistake. We are Yoga Ninjas. And we know where you live." );
- }  
-
- if ( userEmail != "" && userEmail != null ) {
-    document.write('Welcome to our newsletter ' + userEmail + '! ');
- } 
+ document.getElementById("years").innerHTML = reverseAge(userAge);
  /*
  else {
    while (userEmail == "" || userEmail == null) {  

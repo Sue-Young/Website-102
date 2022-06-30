@@ -12,20 +12,6 @@
     </header>
 
     <h2 id="welcome"></h2>
-    <script>
-      let userEmail = prompt("Want to join our newsletter? Enter your email below.");
- 
-      if ( userEmail != "" && userEmail != null ) {
-          alert( "Thanks " + userEmail + " for joining Full Circle Yoga." );
-      } else {
-          alert( "You are making a big mistake. We are Yoga Ninjas. And we know where you live." );
-          userEmail = prompt("Try again? Enter your email below.");
-      }  
-
-      if ( userEmail != "" && userEmail != null ) {
-          document.getElementById("welcome").innerHTML = "Welcome to the Full Circle community, " + userEmail + "!";
-      } 
-    </script>
 
     <h4>If you do Yoga you could functionally be this many years old:</h4>
     <h2 id="years"></h2>
@@ -36,6 +22,8 @@
     <header>
       <h2>What is Hatha Yoga?</h2>
     </header>  
+
+    <script src="prompt1.js"></script>
 
     <article id="HathaYoga">
       <h4>
@@ -92,15 +80,7 @@
 
     </section>
 
-    <script>
-      let userAge = prompt("Enter your age to find out how much yoga can make you younger.");
-      
-      function reverseAge( age ) {
-        return Math.round(age/1.5);
-      }
-      
-      document.getElementById("years").innerHTML = reverseAge(userAge);
-    </script>
+    <script src="app.js"></script>
 
     <br>
     <br>
