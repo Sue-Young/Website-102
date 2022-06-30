@@ -9,5 +9,14 @@
 
  if ( userEmail != "" && userEmail != null ) {
     document.write('Welcome to our newsletter ' + userEmail + '! ');
+ } 
+ /*
+ else {
+   while (userEmail == "" || userEmail == null) {  
+      userEmail = prompt("Join our newsletter now! If you don't enter something you will be stuck in infinite loop hell.");
+      if ( userEmail != "" && userEmail != null ) {
+        document.write('Welcome to our newsletter ' + userEmail + '! ');
+      }
+  } 
  }
-console.log(4+'2');
+ */
